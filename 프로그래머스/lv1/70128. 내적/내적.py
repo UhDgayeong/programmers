@@ -1,0 +1,1 @@
+solution = lambda a, b: sum([a[n] * b[n] for n in range(0, len(a))])
