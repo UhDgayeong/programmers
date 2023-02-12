@@ -1,5 +1,4 @@
 def solution(dirs):
-    arr = [[0] * 10 for _ in range(10)]
     road = []
     pos_x = 5
     pos_y = 5
