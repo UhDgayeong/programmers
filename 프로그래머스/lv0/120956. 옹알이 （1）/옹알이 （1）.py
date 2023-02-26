@@ -3,7 +3,6 @@ def solution(babbling):
     aywm = ["aya", "ye", "woo", "ma"]
     
     for b in babbling:
-        print("b : ", b)
         start = 0
         end = 1
         while end <= len(b):
@@ -11,12 +10,9 @@ def solution(babbling):
                 if end - start > 3:
                     break
             else:
-                print(b[start:end])
-                print(end)
                 start = end
                 if end == len(b):
                     answer += 1
             end += 1
                 
-    
     return answer
