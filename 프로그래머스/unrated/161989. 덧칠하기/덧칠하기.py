@@ -6,7 +6,5 @@ def solution(n, m, section):
         if s - start >= m: # 시작점에서 같이 칠할 수 없는 경우
             answer += 1
             start = s
-        else: # 시작점에서 같이 칠할 수 있는 경우
-            continue
             
     return answer
