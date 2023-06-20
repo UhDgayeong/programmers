@@ -13,4 +13,4 @@ dots = dict(sorted(dots.items(), key = lambda x : x[0]))
 for x in dots:
     dots[x].sort()
     for y in dots[x]:
-        print(str(x), str(y))
+        print(x, y)
